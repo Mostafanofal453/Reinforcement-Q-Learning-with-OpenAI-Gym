@@ -113,12 +113,9 @@ Q-Learning:
 
 ## <a name = "8">Usage</a>
 ### <a name = "9">Install </a>
-All we have to do to run the environment is to install these lines of code
+All we have to do to install the environment is to run this line of code
 ```python
 !pip install cmake 'gym[atari]' scipy
-!pip install gym[atari]
-!pip install autorom[accept-rom-license]
-!pip install gym[atari,accept-rom-license]==0.21.0
 ```
 We just need to pass the environment name to the train model function.
 ```python
